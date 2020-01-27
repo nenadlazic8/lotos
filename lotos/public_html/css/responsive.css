@@ -1,0 +1,91 @@
+
+/*SM breakpoint*/
+@media( min-width:576px){
+
+
+
+}
+
+
+
+/*MD breakpoint*/
+@media(min-width:768px){
+
+    /*HEADER*/
+    .cta p {
+        max-width: 50%;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+
+    .cta.text-center.text-white {
+        padding: 50px;
+    }
+
+    .navigation{
+        padding: 20px 35px;
+    }
+    
+    header{
+    margin-bottom: 8rem;
+}
+
+    /*ABOUT US*/
+
+    #img1 {
+        position: relative;
+        top: 30px;
+        transition: 1s linear;
+        max-width: 470px;
+        max-height: 470px;
+    }
+
+    #img2 {
+        position: absolute;
+        left: 160px;
+        transition: 1s linear;
+        max-width: 470px;
+        max-height: 470px;
+    }
+
+/*    .about-us figure:hover #img2
+    {
+        opacity: 0.5;
+        z-index: -1;
+        cursor: pointer;
+    }
+
+    .about-us figure:hover #img1{
+        opacity: 1;
+    }*/
+
+    
+    
+/*    ACHIVEMENTS*/
+
+.achivements-wrapper{
+    padding: 100px;
+}
+
+.achivements-wrapper p{
+    margin: 2rem 0;
+}
+}
+
+
+
+/*LG breakpoint*/
+@media(min-width:992px){
+
+
+
+}
+
+/*XL breakpoint*/
+@media(min-width:1200px){
+
+
+
+}
