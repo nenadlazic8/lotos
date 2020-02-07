@@ -247,3 +247,16 @@ header{
 .col-12.col-md-3 {
     padding: 55px 0;
 }
+
+/*GALLERY*/
+
+#galerija{
+    margin-bottom: 90px;
+}
+
+/*CONTACT*/
+
+.contact iframe{
+    width: 100%;
+    height: 39vh;
+}
