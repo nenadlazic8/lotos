@@ -79,7 +79,23 @@
 /*LG breakpoint*/
 @media(min-width:992px){
 
+    header{
+        min-height: 100vh;
+        position: relative;
+        margin-bottom: 4rem;
+    }
 
+    .cta.text-center.text-white {
+        display: inline-block;
+        margin: 50px auto;
+        padding: 20px;
+        background: rgb(87,0,108);
+        background: linear-gradient(180deg, rgba(87,0,108,0.28333340172006305) 0%,
+            rgba(97,15,117,0.20210090872286413) 15%, rgba(109,33,128,0.13487401796656162) 33%, rgba(155,99,169,0.0536415249693627) 100%); 
+        box-shadow: -15px 20px 39px 0px rgba(0,0,0,0.75);
+        min-height: 70vh;
+        padding: 5px;
+    }
 
 }
 
