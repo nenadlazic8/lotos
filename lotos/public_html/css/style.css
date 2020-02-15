@@ -2,6 +2,7 @@
 html{
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
+    scroll-behavior: smooth;
 }
 
 img{
@@ -41,6 +42,7 @@ header{
     min-height: 100vh;
     position: relative;
     margin-bottom: 4rem;
+    background-attachment: fixed;
 }
 
 .nav-link{
@@ -68,6 +70,14 @@ header{
 .navbar-brand{
     color: #99009C;
     font-size: 2rem;
+}
+
+span.navbar-line {
+    height: 2px;
+    width: 30px;
+    background: purple;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .cta p{
