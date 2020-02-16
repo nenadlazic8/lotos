@@ -83,6 +83,7 @@
         min-height: 100vh;
         position: relative;
         margin-bottom: 4rem;
+        background-attachment: fixed;
     }
 
     .cta.text-center.text-white {
@@ -96,6 +97,12 @@
         min-height: 70vh;
         padding: 5px;
     }
+
+    
+.nav-link:hover:after{
+    color: white;
+    width:100%;
+}
 
 }
 

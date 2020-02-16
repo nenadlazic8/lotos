@@ -37,12 +37,16 @@ h1{
     max-width: 1200px !important;
 }
 
+.bg-dark{
+    background-color: #280327 !important;
+}
+
 /*HEADER*/
 header{
     min-height: 100vh;
     position: relative;
     margin-bottom: 4rem;
-    background-attachment: fixed;
+    
 }
 
 .nav-link{
@@ -64,7 +68,7 @@ header{
 
 .nav-link:hover:after{
     color: white;
-    width:100%;
+    width:20%;
 }
 
 .navbar-brand{
