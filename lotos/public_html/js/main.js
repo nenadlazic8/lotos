@@ -39,5 +39,26 @@ $(document).ready(function () {
     });
 
 
+
+    $(document).ready(function () {
+        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
+            $(this).toggleClass('open');
+        });
+    });
+
+    $('.navbar a').on('click', function (e) {
+        if (this.hash !== '') {
+            e.preventDefault();
+
+            const hash = this.hash;
+
+            $('html, body')
+                .animate({
+                    scrollTop: $(hash).offset().top
+                }, 800);
+        }
+    });
+
+
 });
 
