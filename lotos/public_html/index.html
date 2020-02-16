@@ -43,13 +43,14 @@ and open the template in the editor.
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
 
-
+    <!--AOS LIBARY-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!--HEADER START-->
-    <header style="background-image:
+    <header id="header" style="background-image:
                 linear-gradient(to right, rgba(0,0,0,0.80), rgba(0,0,0,0.80)), url('img/usluge.jpg');
                 background-size: cover; background-repeat: no-repeat;">
 
@@ -145,7 +146,8 @@ and open the template in the editor.
             <h2 class="heading">Naše usluge</h2>
             <div class="services-wrapper row">
                 <div class="col-12 col-md-4 text-center" id="service1">
-                    <article class="services-item">
+                    <article class="services-item" data-aos="fade-up"
+                    data-aos-duration="1000">
                         <a href="#"><svg width="100" height="100" viewBox="0 0 128 128">
                                 <defs>
                                     <linearGradient id="a" x1="110.868" y1="110.589" x2="17.132" y2="16.852"
@@ -168,7 +170,8 @@ and open the template in the editor.
                 </div>
 
                 <div class="col-12 col-md-4 text-center" id="service2">
-                    <article class="services-item">
+                    <article class="services-item" data-aos="fade-up"
+                    data-aos-duration="1500">
                         <a href="#"><svg version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 480.187 480.187"
                                 style="enable-background:new 0 0 480.187 480.187;" xml:space="preserve" width="100"
                                 height="100" class="">
@@ -324,7 +327,8 @@ and open the template in the editor.
                 </div>
 
                 <div class="col-12 col-md-4 text-center" id="service3">
-                    <article class="services-item">
+                    <article class="services-item" data-aos="fade-up"
+                    data-aos-duration="1800">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512"
@@ -410,7 +414,7 @@ and open the template in the editor.
             <div class="achivements-wrapper row text-center text-white">
                 <div class="col-12 col-md-3">
                     <article class="achivements-item">
-                        <h3>25</h3>
+                        <h3 ><span class="count-num" >25</span></h3>
                         <p>Godina sa vama</p>
                         <a href="#" class="fas fa-birthday-cake"></a>
                     </article>
@@ -418,7 +422,7 @@ and open the template in the editor.
 
                 <div class="col-12 col-md-3">
                     <article class="achivements-item">
-                        <h3>67</h3>
+                        <h3 class="count-num">67</h3>
                         <p>Lorem ipsum</p>
                         <a href="#" class="fas fa-glass-cheers"></a>
                     </article>
@@ -426,7 +430,7 @@ and open the template in the editor.
 
                 <div class="col-12 col-md-3">
                     <article class="achivements-item">
-                        <h3>1000+</h3>
+                        <span class="count-num">1000</span><span>+</span>
                         <p>Zadovoljnih kupaca</p>
                         <a href="#" class="far fa-chart-bar"></a>
                     </article>
@@ -434,7 +438,8 @@ and open the template in the editor.
 
                 <div class="col-12 col-md-3">
                     <article class="achivements-item">
-                        <h3 class="material-icons">all_inclusive</h3>
+                        <h3 class="material-icons" data-aos="flip-right"
+                        data-aos-duration="1000">all_inclusive</h3>
                         <p>Beskonačna ljubaznost prema vama</p>
                         <a href="#" class="fas fa-users"></a>
                     </article>
@@ -477,7 +482,8 @@ and open the template in the editor.
 
                                 <div class="mdb-lightbox no-margin row">
 
-                                    <figure class="col-md-4 ">
+                                    <figure class="col-md-4 " data-aos="zoom-in"
+                                    data-aos-duration="1000">
                                         <a data-lightbox="mini-gallery" href="img/b1.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -486,7 +492,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-6 col-md-4">
+                                    <figure class="col-6 col-md-4" data-aos="zoom-in"
+                                    data-aos-duration="1100">
                                         <a data-lightbox="mini-gallery" href="img/box1.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -495,7 +502,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-6 col-md-4">
+                                    <figure class="col-6 col-md-4" data-aos="zoom-in"
+                                    data-aos-duration="1200">
                                         <a data-lightbox="mini-gallery" href="img/box2.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -504,7 +512,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-md-4">
+                                    <figure class="col-md-4" data-aos="zoom-in"
+                                    data-aos-duration="1300">
                                         <a data-lightbox="mini-gallery" href="img/b2.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -513,7 +522,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-md-4">
+                                    <figure class="col-md-4" data-aos="zoom-in"
+                                    data-aos-duration="1400">
                                         <a data-lightbox="mini-gallery" href="img/dek1.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -522,7 +532,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-4">
+                                    <figure class="col-4" data-aos="zoom-in"
+                                    data-aos-duration="1500">
                                         <a data-lightbox="mini-gallery" href="img/dek2.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -531,7 +542,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-4">
+                                    <figure class="col-4" data-aos="zoom-in"
+                                    data-aos-duration="1600">
                                         <a data-lightbox="mini-gallery" href="img/dek6.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -540,7 +552,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-4">
+                                    <figure class="col-4" data-aos="zoom-in"
+                                    data-aos-duration="1700"> 
                                         <a data-lightbox="mini-gallery" href="img/dek4.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -549,7 +562,8 @@ and open the template in the editor.
                                         </a>
                                     </figure>
 
-                                    <figure class="col-md-4">
+                                    <figure class="col-md-4" data-aos="zoom-in"
+                                    data-aos-duration="1800">
                                         <a data-lightbox="mini-gallery" href="img/dek5.jpg"
                                             data-size="1600x1067">
                                             <img alt="picture"
@@ -689,6 +703,11 @@ and open the template in the editor.
     <!--font awesome icons-->
     <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
 
+    <!--AOS LIBARY-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.rcounter.js"></script>
 </body>
 
 </html>

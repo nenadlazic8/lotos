@@ -1,7 +1,16 @@
 
-$(document).ready(function(){
-    $('#usluge .container').scroll(function(){
-        $(this).css('transform', 'translateY(-50px)');
-    });
+
+
+
+$(document).ready(function () {
+
+    AOS.init();
+
+
+    $('.count-num').rCounter();
+
+
+
+
 });
 
